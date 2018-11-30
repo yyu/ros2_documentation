@@ -73,25 +73,24 @@ Install Visual Studio
 
 
 
-.. raw:: html
 
-   <details>
-   <summary>Install Visual Studio 2017 if using Bouncy or a nightly</summary>
+Install Visual Studio 2017 if using Bouncy or a nightly
 
-   If you already have a paid version of Visual Studio 2017 (Professional, Enterprise), skip this step.
+If you already have a paid version of Visual Studio 2017 (Professional, Enterprise), skip this step.
 
-   :warning: Visual Studio 2017 v15.8 seems to have a compiler bug preventing from building some ROS 2 packages. Please try installing an older version of Visual Studio 2017.
+:warning: Visual Studio 2017 v15.8 seems to have a compiler bug preventing from building some ROS 2 packages. Please try installing an older version of Visual Studio 2017.
 
-   Microsoft provides a free of charge version of Visual Studio 2017, named Community, which can be used to build applications that use ROS 2:
+Microsoft provides a free of charge version of Visual Studio 2017, named Community, which can be used to build applications that use ROS 2:
 
-   https://visualstudio.microsoft.com/downloads/
+https://visualstudio.microsoft.com/downloads/
 
-   Make sure that the Visual C++ features are installed.
-   An easy way to make sure they're installed is to select the `Desktop development with C++` workflow during the install.
+Make sure that the Visual C++ features are installed.
+An easy way to make sure they're installed is to select the `Desktop development with C++` workflow during the install.
 
-   ![Desktop development With C++](https://i.imgur.com/2h0IxCk.png)
+.. image:: https://i.imgur.com/2h0IxCk.png
+   :target: https://i.imgur.com/2h0IxCk.png
+   :alt: DesktopDevelopmentWithCxx
 
-   </details>
 
 
 Install additional DDS implementations (optional)
