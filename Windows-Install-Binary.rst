@@ -179,6 +179,17 @@ Once these packages are downloaded, open an administrative shell and execute the
 
 Please replace ``<PATH\TO\DOWNLOADS>`` with the folder you downloaded the packages to.
 
+
+Now install git which will be used in the next step:
+
+.. code-block:: bash
+
+   > choco install -y git
+
+You will need to append the Git cmd folder ``C:\Program Files\Git\cmd`` to the PATH (you can do this by clicking the Windows icon, typing "Environment Variables", then clicking on "Edit the system environment variables".
+In the resulting dialog, click "Environment Variables", the click "Path" on the bottom pane, then click "Edit" and add the path).
+
+
 You must also install some python dependencies for command-line tools:
 
 .. code-block:: bash
